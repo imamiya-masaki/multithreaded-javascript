@@ -18,3 +18,10 @@ if (isMainThread) {
     })
     parentPort.postMessage('Hello world');
 }
+
+/** 実行結果
+* mainthread true
+* mainthread false
+* mes Hello world
+* wegot Hello world
+**/
